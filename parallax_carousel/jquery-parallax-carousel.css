@@ -1,0 +1,43 @@
+
+.pcarousel {
+  width: 980px;
+  height: 480px;
+  background: transparent url(home_bg.jpg) no-repeat 0 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.pcarousel .slide {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+/*
+.pcarousel-overlay {
+  position: absolute;
+  bottom: 0px;
+  left: 150px;
+  width: 306px;
+  height: 205px;
+  background: transparent url('overlay.png') repeat-x 0 0;
+}
+*/
+
+
+.pcarousel-pager {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+.pcarousel-pager-item {
+  height: 18px;
+  width: 18px;
+  float: left;
+  margin: 5px;
+  background-color: rgba(128,128,128,0.5);
+  cursor: pointer;
+}
+
+.pcarousel-pager-item.active { background-color: #4c88c5; }

@@ -1,0 +1,246 @@
+body, html {
+    height: 100%;
+    margin: 0;}
+
+#logo_cotisse{
+	width: 60%;
+
+}
+
+
+#title{
+	text-align: left;
+}
+
+.iti{
+	text-align: center;
+	margin-bottom: 0px;
+	font-size: ;
+	font-weight: bold;
+
+}
+
+.field
+{
+  margin-top: 5px;
+  background-color: black;
+  max-width:500px;
+  padding:3px;	
+  border-style: solid;
+  color: white;
+  border-width: 2px;
+  border-radius:30px;	
+  opacity: 0.8;
+
+}
+legend
+{
+  margin-bottom:0px;
+  margin-left: 0px;
+  text-align: left;
+}
+
+td{
+	font-weight: bold;
+	font-size: 1.2em;
+	opacity: 1;
+}
+
+.head_log{
+	background-color: white;
+	height:70px;
+
+
+}
+
+
+.depart{
+	font-weight: bold;
+	font-size: 1em ;
+	text-align: center;
+
+}
+
+.dispo{
+	margin-top: 15px;
+	font-weight: bold;
+	background-color: white;
+	font-size: 1.3em;
+	text-align: center;
+	border-radius:30px;
+	opacity: 0.8;
+	font-weight: bold;
+    
+}
+
+.row_dest{
+	margin-top: 110px;
+	margin-bottom: 5px;
+	margin-left: 40px;
+	margin-right: 40px;
+	font-weight: bold;
+	background-color: ;
+	font-size: 1.3em;
+	text-align: center;
+	border-radius:30px;
+	opacity: 0.8;
+}
+
+.row_iti{
+
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 15px;
+	font-weight: bold;
+	background-color: white;
+	font-size: 1.3em;
+	text-align: center;
+	border-radius:30px;
+	opacity: 0.8;
+	
+	}
+
+.row_iti_content{
+	color: white;
+	background-color: black;
+	border-style: solid;
+	border-width: 3px;
+	width: auto;
+	height: auto;
+	text-align: center;
+	border-radius:10px;
+	margin-top: 0px;
+	padding-bottom: 3px;
+	margin-bottom: 90px;
+	font-weight: bold;
+	align-content: center;
+    opacity: 0.8;
+}
+.row_iti_content_2{
+	color: white;
+	background-color: black;
+	border-style: solid;
+	border-width: 3px;
+	width: auto;
+	height: auto;
+	text-align: center;
+	border-radius:10px;
+	margin-top: 0px;
+	padding-bottom: 3px;
+	margin-bottom: 0px;
+	font-weight: bold;
+	align-content: center;
+    opacity: 0.8;
+}
+
+
+.lite{
+	font-weight: bold;
+	color:red;
+
+}
+
+.prem{
+	font-weight: bold;
+	color: blue;
+}
+
+.vip{
+	font-weight: bold;
+	color:#DAA520;
+}
+
+#clock{
+  transform: scale(0.5);
+  margin-top: -15px;
+
+}
+
+.row{
+	
+}
+
+.table{
+	text-align: center;
+}
+
+p{
+	font-weight: bold;
+	text-align: center;
+}
+
+.thead_arrivee{
+	margin-top: 10px;
+}
+
+.google_map{
+	background: url("../../img/google_map.png");
+}
+
+#b1 {background-image:linear-gradient(to bottom,rgba(0,0,0,0.7),rgba(0,1,1,0.5) , rgba(1,0,0,0.7)), url("../../img/tmtv.jpg"); }
+#b2 {background-image:linear-gradient(to bottom,rgba(0,0,0,0.7),rgba(0,1,1,0.5) , rgba(1,0,0,0.7)), url("../../img/morondava2.jpg"); }
+
+body{
+	background:linear-gradient(to bottom,rgba(0,0,0,0.7),rgba(0,1,1,0.5) , rgba(1,0,0,0.7)), url("../../img/morondava2.jpg");
+	background-size: cover;
+	overflow:hidden;
+	background-repeat: no-repeat;
+	
+	}
+html { 
+  margin:0;
+  padding:0;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+
+}
+
+.depart{
+	font-size: 30px;
+	text-align: center;
+	margin-top: 8px;
+
+
+}
+.arriv{ 
+	opacity: 0.8; 
+	margin-top: 30px;
+	padding-top: 25px;
+	height: ;
+	background-color: black;
+	margin-left: 25px;
+
+}
+
+.pcarousel {
+
+	  width: 100%;
+
+	  height: 100%;
+
+	  overflow: hidden;
+
+	  position: relative;
+
+	}
+ 
+.pcarousel .slide {
+	  position: absolute;
+	  top: 0px;
+	  left: 10px;
+	  width: 100%;
+	  height: 100%;
+	}
+	 
+#map{
+	height:800px;
+	margin-top: 30px;
+	margin-left:50px;
+
+}
+.type_tableau{
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 0px;
+	text-decoration-color: white;
+	color: white;
+}
